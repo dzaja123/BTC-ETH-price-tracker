@@ -3,7 +3,7 @@ import tkinter.font as TkFont
 import requests
 from datetime import datetime
 
-def trackBitcoin():
+def trackPrice():
     # definisanje vrednosti za citanje i ispisivanje u GUI-u
     url = "https://min-api.cryptocompare.com/data/pricemulti?fsyms=BTC,ETH&tsyms=USD,EUR" 
     response = requests.get(url).json() 
@@ -53,5 +53,5 @@ labelTime.pack(pady = 300)
 # definisanje main funkcije
 if __name__ == "__main__":
 
-    trackBitcoin()
+    trackPrice()
     root.mainloop()
