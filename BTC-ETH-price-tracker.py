@@ -25,7 +25,7 @@ root.title("BTC/ETH price tracker") # ime prozora
 root.configure(background = '#7AB1FF') # boja pozadine
 
 # definisanje PNG slike koja je na pozadini glavnog prozora
-filename = tk.PhotoImage(file = "C:\\Users\\<<PUTANJA DO SLIKE POZADINE>>\\BTC.png") # putanja do slike na pozadini
+filename = tk.PhotoImage(file = "C:\\Users\\<<PUTANJA DO SLIKE POZADINE>>\\BTC.png") # putanja do slike koja se koristi za pozadinu
 background_label = tk.Label(root, image = filename)
 background_label.place(x = 0, y = 0, relwidth = 1, relheight = 1)
 
