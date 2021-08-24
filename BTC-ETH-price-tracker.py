@@ -26,8 +26,8 @@ root.configure(background = '#7AB1FF') # boja pozadine
 
 # definisanje PNG slike koja je na pozadini glavnog prozora
 filename = tk.PhotoImage(file = "C:\\Users\\<<PUTANJA DO SLIKE POZADINE>>\\BTC.png") # putanja do slike koja se koristi za pozadinu
-background_label = tk.Label(root, image = filename)
-background_label.place(x = 0, y = 0, relwidth = 1, relheight = 1)
+backgroundLabel = tk.Label(root, image = filename)
+backgroundLabel.place(x = 0, y = 0, relwidth = 1, relheight = 1)
 
 # definisanje fontova
 font1 = TkFont.Font(family = "Herculanum", size = 24, weight = "bold")
